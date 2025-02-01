@@ -1,7 +1,9 @@
 ### Project Overview :
 
-    This project analyzes vehicle crash data using Apache Spark. The analysis includes identifying accident patterns, vehicle makes involved in crashes, and factors contributing to road accidents.
-    The main script (main.py) runs multiple queries using PySpark to extract insights from vehicle crash data. The results are stored in output files.
+    This project analyzes vehicle crash data using Apache Spark. The analysis includes identifying accident patterns, 
+    vehicle makes involved in crashes, and factors contributing to road accidents.
+    The main script (main.py) runs multiple queries using PySpark to extract insights 
+    from vehicle crash data. The results are stored in output files.
 
 ### Project Sructure
 
