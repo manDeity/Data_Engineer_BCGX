@@ -1,26 +1,37 @@
 ### Project Overview :
 
-    This project analyzes vehicle crash data using Apache Spark. The analysis includes identifying accident patterns, vehicle makes involved in crashes, and factors contributing to road accidents.
-    The main script (main.py) runs multiple queries using PySpark to extract insights from vehicle crash data. The results are stored in output files.
+    This project analyzes vehicle crash data using Apache Spark. The analysis includes identifying accident patterns, 
+    vehicle makes involved in crashes, and factors contributing to road accidents.
+    The main script (main.py) runs multiple queries using PySpark to extract insights 
+    from vehicle crash data. The results are stored in output files.
 
 ### Project Sructure
 
-📂 Data                              # Input CSV Files
-📂 Output                            # Output is stored in this folder 
-📂 src
-     │── utils.py                    # Utility functions for reading YAML & writing data
-     │── VehicleCrashAnalysis.py     # Class with data analysis methods
+📂 Data                                  # Input CSV Files
 
-│── main.py                          # Main script to run analysis
-│── config.yaml                      # Configuration file (input/output paths)
-│── requirements.txt                 # Required dependencies
-│── README.md                        # Documentation
+📂 Output                                # Output is stored in this folder 
+
+📂 src
+
+     │── utils.py                        # Utility functions for reading YAML & writing data
+
+     │── VehicleCrashAnalysis.py         # Class with data analysis methods
+
+
+│── main.py                              # Main script to run analysis
+
+│── config.yaml                          # Configuration file (input/output paths)
+
+│── requirements.txt                     # Required dependencies
+
+│── README.md                            # Documentation
 
 
 Customization
 
-Modify config.yaml to change file paths and formats.
-Extend VehicleCrashAnalysis.py to add new queries.
+Modify config.yaml to change input file paths and input formats.
+
+You can modify VehicleCrashAnalysis.py to add new queries for further analysis.
 
 
 
@@ -38,11 +49,21 @@ Extend VehicleCrashAnalysis.py to add new queries.
 
     `pip install -r requirements.txt`
 
-3. Exract zip files if any: 
+3. Extract zip files if any: 
+
     If you have received a ZIP file of this repository:
 
     Unzip the file to a folder on your system.
     Navigate to the extracted folder.
 
 
-🚀 Happy Analyzing! 🚀s
+### To Run the script
+
+Run the command 
+    `python3 main.py`
+
+
+### It will display all the output mentioned in the query.
+
+
+🚀 Happy Analyzing! 🚀
