@@ -6,14 +6,22 @@
 ### Project Sructure
 
 📂 Data                              # Input CSV Files
+
 📂 Output                            # Output is stored in this folder 
+
 📂 src
+
      │── utils.py                    # Utility functions for reading YAML & writing data
+
      │── VehicleCrashAnalysis.py     # Class with data analysis methods
 
+
 │── main.py                          # Main script to run analysis
+
 │── config.yaml                      # Configuration file (input/output paths)
+
 │── requirements.txt                 # Required dependencies
+
 │── README.md                        # Documentation
 
 
