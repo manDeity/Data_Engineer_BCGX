@@ -50,6 +50,7 @@ You can modify VehicleCrashAnalysis.py to add new queries for further analysis.
     `pip install -r requirements.txt`
 
 3. Extract zip files if any: 
+
     If you have received a ZIP file of this repository:
 
     Unzip the file to a folder on your system.
