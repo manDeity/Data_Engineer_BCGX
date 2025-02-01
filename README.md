@@ -29,8 +29,9 @@
 
 Customization
 
-Modify config.yaml to change file paths and formats.
-Extend VehicleCrashAnalysis.py to add new queries.
+Modify config.yaml to change input file paths and input formats.
+
+You can modify VehicleCrashAnalysis.py to add new queries for further analysis.
 
 
 
