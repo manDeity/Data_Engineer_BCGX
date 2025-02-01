@@ -7,24 +7,24 @@
 
 ### Project Sructure
 
-📂 Data                              # Input CSV Files
+📂 Data                                  # Input CSV Files
 
-📂 Output                            # Output is stored in this folder 
+📂 Output                                # Output is stored in this folder 
 
 📂 src
 
-     │── utils.py                    # Utility functions for reading YAML & writing data
+     │── utils.py                        # Utility functions for reading YAML & writing data
 
-     │── VehicleCrashAnalysis.py     # Class with data analysis methods
+     │── VehicleCrashAnalysis.py         # Class with data analysis methods
 
 
-│── main.py                          # Main script to run analysis
+│── main.py                              # Main script to run analysis
 
-│── config.yaml                      # Configuration file (input/output paths)
+│── config.yaml                          # Configuration file (input/output paths)
 
-│── requirements.txt                 # Required dependencies
+│── requirements.txt                     # Required dependencies
 
-│── README.md                        # Documentation
+│── README.md                            # Documentation
 
 
 Customization
@@ -49,11 +49,20 @@ You can modify VehicleCrashAnalysis.py to add new queries for further analysis.
 
     `pip install -r requirements.txt`
 
-3. Exract zip files if any: 
+3. Extract zip files if any: 
     If you have received a ZIP file of this repository:
 
     Unzip the file to a folder on your system.
     Navigate to the extracted folder.
 
 
-🚀 Happy Analyzing! 🚀s
+### To Run the script
+
+Run the command 
+    `python3 main.py`
+
+
+### It will display all the output mentioned in the query.
+
+
+🚀 Happy Analyzing! 🚀
